@@ -1,1 +1,180 @@
 
+
+/*Resetea todos los estilos, muy útil
+{
+    margin:0;
+    padding:0;
+
+
+}
+*/
+
+header{
+    background-color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_nav-list{
+    display: flex;
+    list-style: none;
+    padding: 1px;
+    /*
+    border:solid 1px;
+    border-radius: 10px;
+    */
+}
+
+
+.header_size-image{
+    width: 100%;
+}
+
+
+.header_logo{
+    width: 200px;
+    height: 50px;
+}
+
+
+.header_nav-list li{
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.div_galeria{
+    display: flex;
+    flex-direction:row ;
+
+}
+
+.div_galeria_1_size-image{
+    width: 350px;
+    height: 465px;
+
+}
+
+
+.div_galeria_2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350pxx;
+    grid-gap: 5px;
+    
+   
+}
+
+
+.div_galeria_2_size-image{
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+
+}
+
+
+
+footer{
+    background-color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+body{
+    background-color:rgb(178, 221, 114);
+      
+}
+
+
+
+a{
+    text-decoration:none;
+        
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:active{
+    color:white;
+}
+
+/*
+ul{
+    list-style : none;
+    display: inline-block;
+}
+
+
+li {
+    display:inline;
+    padding: 4px;
+  }
+*/
+
+form{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+  
+}
+  
+label{
+    display: inline-block;
+    width: 80px;
+  }
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+  }
+
+.div__p{
+      width: 1000px;
+      overflow:hidden;
+      padding: 5px;
+    }
+
+img{
+ padding: 5px;
+
+}
+
+button{
+    background-color: green;
+    position: relative;
+    top: 5px;
+    left:175px;
+    width: 80px;
+}
+
+
+@media screen and (max-width: 568px){
+    
+    .div_galeria_2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 350pxx;
+        grid-gap: 5px;
+        
+    }
+   
+}
+
+    
+

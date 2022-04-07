@@ -1,0 +1,39 @@
+
+body{
+    background-color:rgb(178, 221, 114);
+      
+}
+
+
+
+a{
+    text-decoration:none;
+        
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:active{
+    color:white;
+}
+
+
+
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+  }
+
+
+
+
+.div__p{
+      width: 1000px;
+      overflow:hidden;
+      padding: 5px;
+    }

@@ -8,7 +8,8 @@
         "../scss/partials/_footer.scss",
         "../scss/partials/_img.scss",
         "../scss/partials/_bootstrap.scss",
-        "../scss/partials/_body.scss"
+        "../scss/partials/_body.scss",
+        "../scss/partials/_variables.scss"
     ],
     "names": [],
     "file": "style.css"

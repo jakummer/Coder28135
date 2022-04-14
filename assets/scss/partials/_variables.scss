@@ -1,5 +1,20 @@
-$color-main: green;
-$width-full: 100%;
-$color-font1:white;
+//$color-main: green;
+//$color-font1:white;
 
-// Declaro un mapa
+$width-full: 100%;
+
+//aplicando maps
+ $map-color: (
+    color-main: greenyellow,
+    color-font1:white,
+    color-font2:green,
+
+ );
+
+ //aplicando extend
+ %extend_flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+

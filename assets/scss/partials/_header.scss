@@ -5,7 +5,7 @@ header{
     font-weight: bold;
 
     .h1{
-        color:$color-font1;
+        color:map-get($map-color , color-font1);
     }
     
     .header_size-image{
@@ -19,9 +19,8 @@ header{
     }
     
     .header_nav{
-        display: flex;
-        justify-content: space-between;
-    
+        @extend %extend_flex;
+         
     }
     
     .header_nav-list{

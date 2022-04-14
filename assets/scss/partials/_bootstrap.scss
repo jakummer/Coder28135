@@ -1,9 +1,9 @@
 
 
 .carousel-caption h3{
-    color:$color-font1;
+    color:map-get($map-color, color-font2);
 }
 
 .carousel-caption h5{
-    color:greenyellow;
+    color:map-get($map-color, color-font1);
 }
